@@ -1,0 +1,130 @@
+
+body{
+	background: #ededed;
+}
+::-webkit-scrollbar{
+	width:12px;
+};
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+::-webkit-scrollbar-thumb:hover{
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #777;
+}
+::-webkit-scrollbar-track{
+    border-width:0;
+}
+::-webkit-scrollbar-track:hover{
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+}
+.main{
+	width:calc(100vw-25px);
+	height: 100vh ;
+	display: grid;
+	grid-template-columns: 55px 1fr 55px;
+	grid-template-rows: 140px 90% 150% 50%;
+}
+.loggo {
+	text-align: center;
+	padding-top:48px;
+}
+.btn {
+	text-align: center;
+	padding-top: 3%;
+}
+.banner{
+	background-color: black;
+	background-image:linear-gradient( rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9) ), url("img/backbanner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 15px 50px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  background-color: #181a1d;
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: white;
+  box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+  transition: .5s;
+}
+a:hover{
+  box-shadow: 0 0 0 0 rgba(0,40,120,0);
+  background-position: 0 0;
+  cursor: pointer;
+}
+.product{
+	background-color: white;
+}
+.footer{
+	text-align: center;
+	background-color: #181a1d;
+}
+.footer_slog{
+	color:#fff;
+	font-size: 44px;
+	font-family: 'Playfair Display', serif;
+	font-weight: normal;
+	word-spacing: 10px;
+	text-transform: uppercase;
+}
+.sweater{
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.header_pr{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.recent{
+	border-bottom: 3px solid #e0bf3d;
+	font-size: 44px;
+	font-family: 'Playfair Display', serif;
+}
+.pr_element{
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	text-align: center;
+	color: #333333;
+	text-transform: uppercase;
+}
+.slog_ban{
+	text-align: center;
+	font-size: 54px;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: white;
+}
+.text_ban{
+	text-align: center;
+	color: white;
+	font-size: 21px;
+	font-family: Arial , sans-serif;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.footer_text{
+	color:white;
+	font-size: 1em;
+	font-family: Araial, sans-serif;
+	background-color: #181a1d;
+}
